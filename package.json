@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build": "node --check index.js && node --check leaveRejoin.js",
     "test": "node --check index.js"
   },
   "author": "Lamgerr",
